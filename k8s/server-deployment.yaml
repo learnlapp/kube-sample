@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
         - name: server
-          image: stephengrider/multi-server
+          image: gcr.io/kube-tut-229917/server
+          # image: stephengrider/multi-server
           ports:
             - containerPort: 5000
           env:
